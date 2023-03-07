@@ -19,3 +19,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.moon {
+  color: rgb(205, 78, 108);
+}
+
+#europa-text {
+  font-size: 25px;
+}
