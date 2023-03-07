@@ -1,0 +1,33 @@
+/*Seletor universal*/
+* {
+  font-style: italic;
+}
+
+/*Seletor de descendência*/
+li a {
+  color: red;
+}
+
+/*Para todo a filho de li*/
+li > a {
+  color: green;
+}
+
+/*Para todo h1 seguido de um h4*/
+h1 + h4 {
+  border: 2px solid;
+}
+
+/*Para determinado atributo*/
+a[href="/recibo"] {
+  font-size: 18px;
+}
+
+/*Pseudo classe*/
+li:nth-of-type(2) {
+  color: rgb(187, 9, 160);
+}
+
+li:nth-of-type(odd) {
+  color: rgb(54, 16, 192);
+}
