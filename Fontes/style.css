@@ -1,0 +1,17 @@
+/* 1º fonte princiapl
+2º fonte principal
+3º fonte de família genérica (ex: sans-serif)
+*/
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
