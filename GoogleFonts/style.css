@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@100;400&family=Shantell+Sans&display=swap");
+
+#texto1 {
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: 100;
+}
+
+#texto2 {
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+#texto3 {
+  font-family: Shantell Sans, Arial, sans-serif;
+}
