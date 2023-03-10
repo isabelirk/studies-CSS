@@ -13,8 +13,18 @@ h1 {
 .post-container {
   background-color: #fffafa;
   font-family: Open Sans, Arial, sans-serif;
+  text-align: justify;
+  width: 70%;
+  height: 100%;
+  margin: 0px auto 0px auto;
+}
+
+.post {
+  margin: 0px 70px 0px 70px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 body {
-  margin: 0px 300px 0px 300px;
+  margin: 0px;
 }
