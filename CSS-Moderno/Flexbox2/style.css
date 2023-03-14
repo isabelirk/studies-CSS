@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: darkgray;
+  min-height: 100vh;
+  display: flex;
+  gap: 0px 15px;
+  justify-content: center;
+  align-items: center;
+  /*flex-wrap: wrap;*/
+  /*flex-direction: column;*/
+}
+
+.item {
+  width: 100%;
+  height: 70px;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* O flex-basis é o tamanho do item. Uma boa prática em comparação ao width
+  flex-basis: 200px;*/
+
+  /* O flex-grow é uma forma que temos de aumentar o tamanho dos itens (na horizontal - em toda a tela) sem fazer com que eles quebrem de forma imediata
+  flex-grow: 1;*/
+}
+
+/* Aqui, o item1 ficará maior em relação aos outros itens
+.item1 {
+  flex-grow: 2;
+}*/
+
+/* O flex-shrink em 2, faz com que o item1 diminua mais em relação aos outros itens, quando chega no limite do flex-basis
+.item1 {
+  flex-shrink: 2;
+}*/
+
+/* O flex puro é quase que um atalho para o basis, grow e shrink, nós podemos usar os 3 juntos aqui. Essa situação é boa para: item1 header, item2 conteúdo e item3 o footer. Na responsividade, ele não diminui quando chega no limite definido (neste exemplo 200 e 70)
+.item2 {
+  flex: 1 0 200px;
+}*/
+
+/* O order é uma forma de mudar a ordem dos itens manualmente.
+O align-self vai fazer o alinhamento único de um dos itens*/
+.item1 {
+  order: 2;
+  align-self: end;
+}
+.item2 {
+  order: 3;
+}
+.item3 {
+  order: 1;
+}
